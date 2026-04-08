@@ -9,7 +9,7 @@ import {recordselection} from './routes/recordselection.mjs';
 import {displayresults} from './routes/displayresults.mjs';
 
 // Create the express application
-const app = express();
+const app = express(); 
 
 // Select the middleware to decode incoming posts
 app.use(express.urlencoded({ extended: false }));
